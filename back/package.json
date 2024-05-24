@@ -1,0 +1,15 @@
+{
+  "name": "app-estacionamiento",
+  "version": "1.0.0",
+  "description": "En esta app se estará creando una sistema de gestion para estacionamiento de vehiculos.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "sequelize": "^6.37.3"
+  }
+}
