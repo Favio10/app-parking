@@ -1,8 +1,12 @@
-const server = require("./src/app");
-const { conn } = require("./src/db");
+require("dotenv").config();
+//const PORT = process.env;
 
-conn.sync({ force: true }).then(() => {
-  server.listen(3001, () => {
-    console.log("listening on port 3001");
-  });
+const htpp = require("http");
+
+const app = htpp.createServer((req, res) => {
+  res.writeHead(200, { "Content-Type": "text/plain" });
 });
+
+const PORT = 3001;
+app.listen(PORT);
+console.log(`Server running on port ${PORT}`);
