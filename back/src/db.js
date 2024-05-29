@@ -39,6 +39,7 @@ sequelize.models = Object.fromEntries(capsEntries);
 const { Residentes } = sequelize.models;
 const { NoResidentes } = sequelize.models;
 const { Oficiales } = sequelize.models;
+const { User } = sequelize.models;
 
 //luego irian las relaciones, ejemplo:
 // Genres.belongsToMany(Videogame, { through: "GenGame" });

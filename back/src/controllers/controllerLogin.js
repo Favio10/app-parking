@@ -7,7 +7,7 @@ const controllerLogin = async (usernameOrEmail, password) => {
   if (!password) {
     throw new Error("La contraseña es requerida");
   }
-
+  // aca iria la logica para validar que el usuario esta registrado en la base de datos
   return { success: true, message: "inicio de sesión exitoso" };
 };
 
