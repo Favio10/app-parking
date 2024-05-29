@@ -1,9 +1,9 @@
 const { Router } = require("express");
 
+const login = require("./login");
+
 const router = Router();
 
-router.get("/", (req, res) => {
-  res.status(200).json({ message: "bienvenido" });
-});
+router.use("/", login);
 
 module.exports = router;
