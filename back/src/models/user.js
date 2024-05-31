@@ -1,3 +1,4 @@
+const sequelize = require("sequelize");
 const { DataTypes } = require("sequelize");
 
 module.exports = (sequelize) => {
@@ -39,3 +40,21 @@ module.exports = (sequelize) => {
     },
   });
 };
+
+/*
+  // Método para cifrar la contraseña antes de crear o actualizar un usuario
+  User.beforeCreate(async (user) => {
+    const salt = await bcrypt.genSalt(10);
+    user.password = await bcrypt.hash(user.password, salt);
+  });
+
+  User.beforeUpdate(async (user) => {
+    if (user.changed('password')) {
+      const salt = await bcrypt.genSalt(10);
+      user.password = await bcrypt.hash(user.password, salt);
+    }
+  });
+
+  return User;
+};
+ */

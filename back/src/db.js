@@ -36,10 +36,10 @@ sequelize.models = Object.fromEntries(capsEntries);
 // aca deberia importar los modelos, ejemplo:
 // const { Videogame } = sequelize.models;
 
-const { Residentes } = sequelize.models;
-const { NoResidentes } = sequelize.models;
-const { Oficiales } = sequelize.models;
-const { User } = sequelize.models;
+const { residentes } = sequelize.models;
+const { no_residentes } = sequelize.models;
+const { oficiales } = sequelize.models;
+const { user } = sequelize.models;
 
 //luego irian las relaciones, ejemplo:
 // Genres.belongsToMany(Videogame, { through: "GenGame" });
