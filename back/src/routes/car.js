@@ -7,3 +7,5 @@ const carRoute = Router();
 // registrar en db  vehiculo oficial
 // registrar en db  vehiculo residente
 // ver si aca se integrara el registro de entrada y salida
+
+module.exports = carRoute;
