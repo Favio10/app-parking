@@ -5,6 +5,7 @@ const carRoute = Router();
 
 carRoute.post("/regOficial");
 carRoute.post("/regResidente");
+carRoute.post("listaOficial");
 // aca deberia crear route para :
 // registrar en db  vehiculo oficial
 // registrar en db  vehiculo residente
