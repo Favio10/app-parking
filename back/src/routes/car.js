@@ -3,6 +3,7 @@ const {} = require("../controllers/registerCar");
 
 const carRoute = Router();
 
+carRoute.post("/regOficial");
 // aca deberia crear route para :
 // registrar en db  vehiculo oficial
 // registrar en db  vehiculo residente
