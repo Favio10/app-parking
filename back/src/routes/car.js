@@ -3,10 +3,10 @@ const {} = require("../controllers/registerCar");
 
 const carRoute = Router();
 
-carRoute.post("/regOficial");
-carRoute.post("/regResidente");
-carRoute.get("/listaOficial");
-carRoute.get("/listaResidente");
+carRoute.post("/registerOficial");
+carRoute.post("/registerResidente");
+carRoute.get("/listarOficial");
+carRoute.get("/listarResidente");
 // aca deberia crear route para :
 // registrar en db  vehiculo oficial
 // registrar en db  vehiculo residente
