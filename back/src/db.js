@@ -40,6 +40,7 @@ const { residentes } = sequelize.models;
 const { no_residentes } = sequelize.models;
 const { oficiales } = sequelize.models;
 const { user } = sequelize.models;
+const { prueba } = sequelize.models;
 
 //luego irian las relaciones, ejemplo:
 // Genres.belongsToMany(Videogame, { through: "GenGame" });
