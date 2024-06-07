@@ -7,9 +7,11 @@ carRoute.post("/registerOficial");
 carRoute.post("/registerResidente");
 carRoute.get("/listarOficial");
 carRoute.get("/listarResidente");
-// aca deberia crear route para :
-// registrar en db  vehiculo oficial
-// registrar en db  vehiculo residente
+carRoute.get("/deleteOficial");
+carRoute.get("/deleteResidente");
+carRoute.get("/registroEntrada");
+carRoute.get("/registroSalida");
+
 // ver si aca se integrara el registro de entrada y salida
 
 module.exports = carRoute;
