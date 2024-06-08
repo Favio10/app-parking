@@ -1,5 +1,8 @@
 const { Router } = require("express");
-const { contRegisterOficial } = require("../controllers/registerCar");
+const {
+  contRegisterOficial,
+  contRegisterResidente,
+} = require("../controllers/registerCar");
 
 const carRoute = Router();
 
