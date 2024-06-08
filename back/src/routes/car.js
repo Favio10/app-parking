@@ -5,6 +5,7 @@ const {
   contListOficial,
   contListResidente,
   contDeleteOficial,
+  contDeleteResidente,
 } = require("../controllers/registerCar");
 
 const carRoute = Router();
