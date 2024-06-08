@@ -2,6 +2,7 @@ const { Router } = require("express");
 const {
   contRegisterOficial,
   contRegisterResidente,
+  contListOficial,
 } = require("../controllers/registerCar");
 
 const carRoute = Router();
