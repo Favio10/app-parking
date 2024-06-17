@@ -17,7 +17,7 @@ carRoute.post("/registerResidente", contRegisterResidente);
 carRoute.get("/listarOficial", contListOficial);
 carRoute.get("/listarResidente", contListResidente);
 carRoute.get("/deleteOficial", contDeleteOficial);
-carRoute.get("/deleteResidente");
+carRoute.get("/deleteResidente", contDeleteResidente);
 carRoute.get("/registroEntrada");
 carRoute.get("/registroSalida");
 
