@@ -18,7 +18,7 @@ carRoute.get("/listarOficial", contListOficial);
 carRoute.get("/listarResidente", contListResidente);
 carRoute.get("/deleteOficial", contDeleteOficial);
 carRoute.get("/deleteResidente", contDeleteResidente);
-carRoute.get("/registroEntrada");
+carRoute.get("/registroEntrada", contRegistoEntrada);
 carRoute.get("/registroSalida");
 
 // ver si aca se integrara el registro de entrada y salida
