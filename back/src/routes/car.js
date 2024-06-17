@@ -12,7 +12,7 @@ const {
 
 const carRoute = Router();
 
-carRoute.post("/registerOficial");
+carRoute.post("/registerOficial", contRegisterOficial);
 carRoute.post("/registerResidente");
 carRoute.get("/listarOficial");
 carRoute.get("/listarResidente");
