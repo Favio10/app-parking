@@ -6,6 +6,7 @@ const userRoute = Router();
 // userRoute.post("/register", async (req, res) => {
 //   const { email, username, dni, password } = req.body;
 //   try {
+// console.log()
 //     const newUser = await controllerRegister(email, username, dni, password);
 //     res.status(201).json({
 //       message: "Usuario registrado con éxito.",
